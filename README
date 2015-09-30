@@ -1,0 +1,29 @@
+Project Name: Smart Lots
+
+Active Members:
+Travis Johnson
+Alan Vandermeer
+Zoe Nacol
+Alex Kurzon
+Ethan Meeks
+
+Description:
+The SmartLots project aims to create a real-time web interface to show just how many cars are in a given lot on campus. Using magnetometer sensors and the power of physics, we can figure out when a car enters and leaves a lot. This information is uploaded to a website for easy viewing and made available to anyone. Now you can tell when the CTLM lot is full, rather than waste 5 minutes of gas and time driving around to find that there are no spots.
+
+
+
+Steps:
+	1) Sense a car passing through a parking lot entrance/exit [magnetrometer]
+	2) Determine the direction [arduino]
+	3) send info to web server [pi]
+	4) Update lot displays accordingly [webserver]
+
+Hardware Inventory:
+	9 Waterproof Cases
+	2 Magnetrometers [Sparkfun Part No. HMC5883L]
+	2 Fio Arduino
+	3 Uno Arduino
+	2 Arduino Batteries
+	3 Rasperry Pi(one with case)
+		4GB MicroSD Card with SD Adapter
+	2 Xbee (one broken)
