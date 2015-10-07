@@ -21,6 +21,7 @@ Steps:
 Hardware Inventory:
 	9 Waterproof Cases
 	2 Magnetrometers [Sparkfun Part No. HMC5883L]
+		5 milli-gauss resolution	
 	2 Fio Arduino
 	3 Uno Arduino
 	2 Arduino Batteries

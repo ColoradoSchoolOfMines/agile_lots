@@ -1,0 +1,15 @@
+int x, y, z; // Stuff from first magnetrometer
+int x1, y1, z1; // Stuff from second magnetrometer
+
+SETUP:
+	Setup Magnetrometers
+
+LOOP:
+	Keep a running average of the magnetic field sensed by the magnetrometer
+		Decide If Car Passes
+		BIG SPIKE in magnetrometer data means a car passed
+		N units of time pass, and then other magnetrometer sees BIG SPIKE
+		Determine Direction of Passing
+	Report Car Passing and Direction 
+
+DONE
